@@ -1224,7 +1224,7 @@ PrefabInstance:
     - target: {fileID: 8508422556698695958, guid: 92c2a7eafafc9c543842d8533b0661ed, type: 3}
       propertyPath: _enemyUpgrades.Array.data[0].enemy
       value: 
-      objectReference: {fileID: 6795194674777499025, guid: 97261f539c3c6d04c934ec93de3b49bd, type: 3}
+      objectReference: {fileID: 6795194674777499025, guid: 1825deb9f968e404fbad2cfbfc08aa32, type: 3}
     - target: {fileID: 8508422556698695958, guid: 92c2a7eafafc9c543842d8533b0661ed, type: 3}
       propertyPath: _enemyUpgrades.Array.data[1].enemy
       value: 
@@ -1477,7 +1477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5389117170712391319, guid: 01ee8968f06e1bb448b30bc708a68ff4, type: 3}
       propertyPath: _attackDamage
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5389117170712391319, guid: 01ee8968f06e1bb448b30bc708a68ff4, type: 3}
       propertyPath: _attackCooldown
@@ -1530,6 +1530,10 @@ PrefabInstance:
     - target: {fileID: 7377170116658896713, guid: 01ee8968f06e1bb448b30bc708a68ff4, type: 3}
       propertyPath: _maxHealth
       value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841129691565765826, guid: 01ee8968f06e1bb448b30bc708a68ff4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
